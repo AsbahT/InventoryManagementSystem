@@ -3,10 +3,11 @@
 from utils.logging_config import logger
 
 class Supplier:
-    def __init__(self, supplier_id, name, contact_info):
+    def __init__(self, supplier_id, name, contact_info,is_deleted=0):
         self.supplier_id = supplier_id
         self.name = name
         self.contact_info = contact_info
+        self.is_deleted=is_deleted
 
         logger.info(f"Created Supplier: {name} (ID: {supplier_id})")
 

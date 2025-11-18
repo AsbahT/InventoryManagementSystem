@@ -1,9 +1,12 @@
 # ims/models/order.py
+import sqlite3,os,sys
+import uuid
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.logging_config import logger
 from datetime import datetime
 
 class Order:
-    def __init__(self, order_id, product_id, quantity, order_type, date=None):
+    def __init__(self, product_id, order_type,quantity, date,supplier_id,order_id=None,status='active'):
         """
         Represents a purchase or sales order.
         
@@ -14,22 +17,24 @@ class Order:
             order_type (str): "purchase" or "sale"
             date (str or datetime, optional): Order date, defaults to today's date
         """
-        
+        self.order_id = order_id if order_id is not None else str(uuid.uuid4())
+        self.product_id = product_id
+        self.quantity = int(quantity)
+        self.order_type = order_type.lower().strip()
+        self.date = date if date else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        self.supplier_id = supplier_id
+        self.status = status
+
         if quantity <= 0:
-            logger.error(f"Invalid quantity for Order {order_id}: {quantity}")
+            logger.error(f"Invalid quantity for Order {self}: {quantity}")
             raise ValueError("Quantity must be greater than zero")
 
-        if order_type not in ["purchase", "sale"]:
-            logger.error(f"Invalid order type for {order_id}: {order_type}")
-            raise ValueError("Order type must be 'purchase' or 'sale'")
-        
-        self.order_id = order_id
-        self.product_id = product_id
-        self.quantity = quantity
-        self.order_type = order_type
-        self.date = date if date else datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        if self.order_type not in ["purchase", "sale"]:
+            logger.error(f"Invalid order type for {self}: {order_type}")
+            raise ValueError(f"Order type must be 'purchase' or 'sale', got '{order_type}'")
+            
 
-        logger.info(f"Created Order: ID={order_id}, Type={order_type}, Product={product_id}, Qty={quantity}")
+        logger.info(f"Created Order: {self}, Type={order_type}, Product={product_id}, Qty={quantity}")
 
     def __repr__(self):
         return f"<Order: {self.order_id}, {self.order_type}, Qty: {self.quantity}>"

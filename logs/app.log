@@ -1,0 +1,1096 @@
+2025-10-29 00:05:26,824 | INFO | Created Product: xyz (ID: 1)
+2025-10-29 00:05:26,824 | INFO | Product added to inventory: 1
+2025-10-29 13:23:33,058 | INFO | Connected to SQLite database
+2025-10-29 13:23:33,083 | INFO | Database connection closed
+2025-10-29 13:24:00,946 | INFO | Connected to SQLite database
+2025-10-29 13:24:00,946 | INFO | Database tables created successfully
+2025-10-29 13:24:00,946 | INFO | Database connection closed
+2025-10-29 13:24:20,920 | INFO | Connected to SQLite database
+2025-10-29 13:24:20,982 | INFO | Database tables created successfully
+2025-10-29 13:24:20,982 | INFO | Database connection closed
+2025-10-31 12:46:56,746 | INFO | Created Product: Keyboard (ID: P001)
+2025-10-31 12:46:56,775 | INFO | Product saved to DB: P001
+2025-10-31 12:46:56,776 | INFO | Created Product: Keyboard (ID: P001)
+2025-10-31 12:46:56,779 | INFO | Stock updated for: P001
+2025-10-31 12:46:56,779 | INFO | Created Product: Keyboard (ID: P001)
+2025-10-31 12:49:18,472 | INFO | Created Product: Keyboard (ID: P001)
+2025-10-31 12:49:18,472 | ERROR | Failed to add product: UNIQUE constraint failed: products.product_id
+2025-10-31 12:49:18,472 | INFO | Created Product: Keyboard (ID: P001)
+2025-10-31 12:49:18,472 | INFO | Stock updated for: P001
+2025-10-31 12:49:18,472 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-05 17:03:23,996 | INFO | Connected to SQLite database
+2025-11-05 17:03:23,998 | INFO | Database tables created successfully
+2025-11-05 17:04:34,891 | INFO | Connected to SQLite database
+2025-11-05 17:04:34,891 | INFO | Database tables created successfully
+2025-11-05 17:04:34,891 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 17:04:34,891 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 17:04:34,891 | INFO | Supplier S100 added successfully
+2025-11-05 17:04:34,891 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 17:04:34,897 | INFO | Product saved to DB: P100
+2025-11-05 17:04:34,897 | INFO | Product P100 added successfully
+2025-11-05 17:08:58,160 | INFO | Connected to SQLite database
+2025-11-05 17:08:58,165 | INFO | Database tables created successfully
+2025-11-05 17:08:58,165 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 17:08:58,165 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 17:08:58,166 | INFO | Supplier S100 added successfully
+2025-11-05 17:08:58,166 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 17:08:58,168 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 17:08:58,168 | WARNING | Product P100 already exists!
+2025-11-05 23:08:21,371 | INFO | Connected to SQLite database
+2025-11-05 23:08:21,383 | INFO | Database tables created successfully
+2025-11-05 23:08:21,383 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:08:21,383 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:08:21,383 | INFO | Supplier S100 added successfully
+2025-11-05 23:08:21,385 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:08:21,385 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:08:21,385 | WARNING | Product P100 already exists!
+2025-11-05 23:09:45,214 | INFO | Connected to SQLite database
+2025-11-05 23:09:45,214 | INFO | Database tables created successfully
+2025-11-05 23:09:45,214 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:09:45,216 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:09:45,216 | INFO | Supplier S100 added successfully
+2025-11-05 23:09:45,216 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:09:45,217 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:09:45,217 | WARNING | Product P100 already exists!
+2025-11-05 23:14:56,403 | INFO | Connected to SQLite database
+2025-11-05 23:14:56,403 | INFO | Database tables created successfully
+2025-11-05 23:14:56,403 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:14:56,403 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:14:56,403 | INFO | Supplier S100 added successfully
+2025-11-05 23:14:56,403 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:14:56,403 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:14:56,403 | WARNING | Product P100 already exists!
+2025-11-05 23:14:56,403 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:14:56,403 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:14:56,412 | INFO | Stock updated for: P100
+2025-11-05 23:14:56,412 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:18:57,801 | INFO | Connected to SQLite database
+2025-11-05 23:18:57,801 | INFO | Database tables created successfully
+2025-11-05 23:18:57,801 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:18:57,803 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:18:57,803 | INFO | Supplier S100 added successfully
+2025-11-05 23:18:57,803 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:18:57,804 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:18:57,804 | WARNING | Product P100 already exists!
+2025-11-05 23:18:57,804 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:18:57,804 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:18:57,809 | INFO | Stock updated for: P100
+2025-11-05 23:18:57,810 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:20:42,953 | INFO | Connected to SQLite database
+2025-11-05 23:20:42,953 | INFO | Database tables created successfully
+2025-11-05 23:20:42,953 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:20:42,953 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:20:42,953 | INFO | Supplier S100 added successfully
+2025-11-05 23:20:42,953 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:20:42,953 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:20:42,953 | WARNING | Product P100 already exists!
+2025-11-05 23:20:42,953 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:20:42,953 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:20:42,966 | INFO | Stock updated for: P100
+2025-11-05 23:20:42,966 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:23:49,893 | INFO | Connected to SQLite database
+2025-11-05 23:23:49,896 | INFO | Database tables created successfully
+2025-11-05 23:23:49,896 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:23:49,896 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:23:49,896 | INFO | Supplier S100 added successfully
+2025-11-05 23:23:49,896 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:23:49,898 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:23:49,898 | WARNING | Product P100 already exists!
+2025-11-05 23:23:49,898 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:23:49,898 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:23:49,903 | INFO | Stock updated for: P100
+2025-11-05 23:23:49,903 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:24:13,327 | INFO | Connected to SQLite database
+2025-11-05 23:24:13,327 | INFO | Database tables created successfully
+2025-11-05 23:24:13,327 | INFO | Database connection closed
+2025-11-05 23:24:27,137 | INFO | Connected to SQLite database
+2025-11-05 23:24:27,137 | INFO | Database tables created successfully
+2025-11-05 23:24:27,137 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:24:27,137 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:24:27,137 | INFO | Supplier S100 added successfully
+2025-11-05 23:24:27,137 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:24:27,137 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:24:27,137 | WARNING | Product P100 already exists!
+2025-11-05 23:24:27,137 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:24:27,137 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:24:27,143 | INFO | Stock updated for: P100
+2025-11-05 23:24:27,143 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:26:20,339 | INFO | Connected to SQLite database
+2025-11-05 23:26:20,341 | INFO | Database tables created successfully
+2025-11-05 23:26:20,341 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:26:20,341 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:26:20,341 | INFO | Supplier S100 added successfully
+2025-11-05 23:26:20,341 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:26:20,342 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:26:20,342 | WARNING | Product P100 already exists!
+2025-11-05 23:26:20,342 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:26:20,342 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:26:20,347 | INFO | Stock updated for: P100
+2025-11-05 23:26:20,347 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:26:33,205 | INFO | Connected to SQLite database
+2025-11-05 23:26:33,205 | INFO | Database tables created successfully
+2025-11-05 23:26:33,205 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:26:33,209 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:26:33,209 | INFO | Supplier S100 added successfully
+2025-11-05 23:26:33,209 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:26:33,209 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:26:33,209 | WARNING | Product P100 already exists!
+2025-11-05 23:26:33,210 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:26:33,210 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:26:33,215 | INFO | Stock updated for: P100
+2025-11-05 23:26:33,216 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:30:43,387 | INFO | Connected to SQLite database
+2025-11-05 23:30:43,387 | INFO | Database tables created successfully
+2025-11-05 23:30:43,387 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:30:43,387 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:30:43,387 | INFO | Supplier S100 added successfully
+2025-11-05 23:30:43,387 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:30:43,389 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:30:43,389 | WARNING | Product P100 already exists!
+2025-11-05 23:30:43,389 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:30:43,389 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:30:43,395 | INFO | Stock updated for: P100
+2025-11-05 23:30:43,395 | ERROR | Error saving order O100: 'OrdersDB' object has no attribute 'execute_query'
+2025-11-05 23:34:46,793 | INFO | Connected to SQLite database
+2025-11-05 23:34:46,793 | INFO | Database tables created successfully
+2025-11-05 23:34:46,793 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:34:46,793 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:34:46,793 | INFO | Supplier S100 added successfully
+2025-11-05 23:34:46,793 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:34:46,793 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:34:46,793 | WARNING | Product P100 already exists!
+2025-11-05 23:34:46,793 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:34:46,793 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:34:46,807 | INFO | Stock updated for: P100
+2025-11-05 23:34:46,808 | ERROR | DB Write Operation Failed: table orders has no column named supplier_id
+2025-11-05 23:34:46,808 | ERROR | Error saving order O100: table orders has no column named supplier_id
+2025-11-05 23:37:32,642 | INFO | Connected to SQLite database
+2025-11-05 23:37:32,656 | ERROR | Error creating tables: near "supplier_id": syntax error
+2025-11-05 23:37:32,656 | INFO | Database connection closed
+2025-11-05 23:37:56,516 | INFO | Connected to SQLite database
+2025-11-05 23:37:56,520 | ERROR | Error creating tables: near "supplier_id": syntax error
+2025-11-05 23:37:56,520 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-05 23:37:56,520 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-05 23:37:56,520 | INFO | Supplier S100 added successfully
+2025-11-05 23:37:56,520 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:37:56,527 | INFO | Product saved to DB: P100
+2025-11-05 23:37:56,527 | INFO | Product P100 added successfully
+2025-11-05 23:37:56,527 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-05 23:37:56,527 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-05 23:37:56,532 | INFO | Stock updated for: P100
+2025-11-05 23:37:56,534 | ERROR | DB Write Operation Failed: no such table: orders
+2025-11-05 23:37:56,534 | ERROR | Error saving order O100: no such table: orders
+2025-11-06 15:42:44,709 | INFO | Connected to SQLite database
+2025-11-06 15:42:44,714 | ERROR | Error creating tables: near "supplier_id": syntax error
+2025-11-06 15:42:44,714 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 15:42:44,714 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 15:42:44,714 | INFO | Supplier S100 added successfully
+2025-11-06 15:42:44,714 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:42:44,714 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:42:44,714 | WARNING | Product P100 already exists!
+2025-11-06 15:42:44,714 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-06 15:42:44,714 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:42:44,722 | INFO | Stock updated for: P100
+2025-11-06 15:42:44,722 | ERROR | DB Write Operation Failed: no such table: orders
+2025-11-06 15:42:44,723 | ERROR | Error saving order O100: no such table: orders
+2025-11-06 15:46:16,033 | INFO | Connected to SQLite database
+2025-11-06 15:46:16,056 | INFO | Database tables created successfully
+2025-11-06 15:46:16,056 | INFO | Database connection closed
+2025-11-06 15:46:43,030 | INFO | Connected to SQLite database
+2025-11-06 15:46:43,030 | INFO | Database tables created successfully
+2025-11-06 15:46:43,030 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 15:46:43,030 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 15:46:43,030 | INFO | Supplier S100 added successfully
+2025-11-06 15:46:43,030 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:46:43,041 | INFO | Product saved to DB: P100
+2025-11-06 15:46:43,041 | INFO | Product P100 added successfully
+2025-11-06 15:46:43,041 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-06 15:46:43,041 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:46:43,047 | INFO | Stock updated for: P100
+2025-11-06 15:46:43,054 | INFO | DB Write Operation Successful
+2025-11-06 15:46:43,054 | INFO | Order saved in DB: O100
+2025-11-06 15:46:43,054 | INFO | Order processed: O100
+2025-11-06 15:46:43,054 | INFO | Created Order: ID=O101, Type=sale, Product=P100, Qty=3
+2025-11-06 15:46:43,054 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:46:43,059 | INFO | Stock updated for: P100
+2025-11-06 15:46:43,064 | INFO | DB Write Operation Successful
+2025-11-06 15:46:43,064 | INFO | Order saved in DB: O101
+2025-11-06 15:46:43,064 | INFO | Order processed: O101
+2025-11-06 15:46:43,064 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:49:51,211 | INFO | Connected to SQLite database
+2025-11-06 15:49:51,215 | INFO | Database tables created successfully
+2025-11-06 15:49:51,215 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 15:49:51,215 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 15:49:51,215 | INFO | Supplier S100 added successfully
+2025-11-06 15:49:51,215 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:49:51,215 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:49:51,215 | WARNING | Product P100 already exists!
+2025-11-06 15:49:51,215 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-06 15:49:51,215 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:49:51,221 | INFO | Stock updated for: P100
+2025-11-06 15:49:51,221 | ERROR | DB Write Operation Failed: UNIQUE constraint failed: orders.order_id
+2025-11-06 15:49:51,221 | ERROR | Error saving order O100: UNIQUE constraint failed: orders.order_id
+2025-11-06 15:59:39,534 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 15:59:39,543 | INFO | Product saved to DB: P001
+2025-11-06 15:59:52,948 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 15:59:52,949 | ERROR | Failed to add product: UNIQUE constraint failed: products.product_id
+2025-11-06 15:59:52,949 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 15:59:52,953 | INFO | Stock updated for: P001
+2025-11-06 15:59:52,953 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 15:59:52,953 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:00:03,990 | INFO | Connected to SQLite database
+2025-11-06 16:00:03,990 | INFO | Database tables created successfully
+2025-11-06 16:00:03,993 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:00:03,993 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:00:03,993 | INFO | Supplier S100 added successfully
+2025-11-06 16:00:03,993 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:00:03,994 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:00:03,994 | WARNING | Product P100 already exists!
+2025-11-06 16:00:03,994 | INFO | Created Order: ID=O100, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:00:03,995 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:00:03,999 | INFO | Stock updated for: P100
+2025-11-06 16:00:03,999 | ERROR | DB Write Operation Failed: UNIQUE constraint failed: orders.order_id
+2025-11-06 16:00:03,999 | ERROR | Error saving order O100: UNIQUE constraint failed: orders.order_id
+2025-11-06 16:04:38,682 | INFO | Connected to SQLite database
+2025-11-06 16:04:38,697 | INFO | Database tables created successfully
+2025-11-06 16:04:38,697 | INFO | Database connection closed
+2025-11-06 16:05:05,012 | INFO | Connected to SQLite database
+2025-11-06 16:05:05,013 | INFO | Database tables created successfully
+2025-11-06 16:05:05,013 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:05:05,013 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:05:05,013 | INFO | Supplier S100 added successfully
+2025-11-06 16:05:05,013 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:05:05,019 | INFO | Product saved to DB: P100
+2025-11-06 16:05:05,019 | INFO | Product P100 added successfully
+2025-11-06 16:10:11,694 | INFO | Connected to SQLite database
+2025-11-06 16:10:11,694 | INFO | Database tables created successfully
+2025-11-06 16:10:11,694 | INFO | Database connection closed
+2025-11-06 16:10:15,526 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:10:15,534 | INFO | Product saved to DB: P001
+2025-11-06 16:10:15,534 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:10:15,534 | INFO | Stock updated for: P001
+2025-11-06 16:10:15,534 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:10:15,534 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:10:20,792 | INFO | Connected to SQLite database
+2025-11-06 16:10:20,792 | INFO | Database tables created successfully
+2025-11-06 16:10:20,792 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:10:20,792 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:10:20,792 | INFO | Supplier S100 added successfully
+2025-11-06 16:10:20,792 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:10:20,794 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:10:20,794 | WARNING | Product P100 already exists!
+2025-11-06 16:10:20,795 | INFO | Created Order: <Order: 799d0d0c-258b-4bb7-b3c5-7af4eecbea82, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:10:20,795 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:10:20,799 | INFO | Stock updated for: P100
+2025-11-06 16:10:20,799 | ERROR | DB Write Operation Failed: 6 values for 5 columns
+2025-11-06 16:10:20,800 | ERROR | Error saving order 799d0d0c-258b-4bb7-b3c5-7af4eecbea82: 6 values for 5 columns
+2025-11-06 16:11:51,607 | INFO | Connected to SQLite database
+2025-11-06 16:11:51,607 | INFO | Database tables created successfully
+2025-11-06 16:11:51,607 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:11:51,607 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:11:51,607 | INFO | Supplier S100 added successfully
+2025-11-06 16:11:51,607 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:11:51,607 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:11:51,607 | WARNING | Product P100 already exists!
+2025-11-06 16:11:51,607 | INFO | Created Order: <Order: ab7f940a-c124-43ae-89ae-b76bb61929e4, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:11:51,607 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:11:51,623 | INFO | Stock updated for: P100
+2025-11-06 16:11:51,628 | INFO | DB Write Operation Successful
+2025-11-06 16:11:51,628 | INFO | Order saved in DB: ab7f940a-c124-43ae-89ae-b76bb61929e4
+2025-11-06 16:11:51,629 | INFO | Order processed: ab7f940a-c124-43ae-89ae-b76bb61929e4
+2025-11-06 16:11:51,629 | INFO | Created Order: <Order: 5cab06f6-2b83-43ff-990b-cb02f2d8e783, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:11:51,630 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:11:51,634 | INFO | Stock updated for: P100
+2025-11-06 16:11:51,636 | INFO | DB Write Operation Successful
+2025-11-06 16:11:51,636 | INFO | Order saved in DB: 5cab06f6-2b83-43ff-990b-cb02f2d8e783
+2025-11-06 16:11:51,636 | INFO | Order processed: 5cab06f6-2b83-43ff-990b-cb02f2d8e783
+2025-11-06 16:11:51,636 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:11:51,636 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:28:45,629 | INFO | Connected to SQLite database
+2025-11-06 16:28:45,631 | INFO | Database tables created successfully
+2025-11-06 16:28:45,631 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:28:45,631 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:28:45,631 | INFO | Supplier S100 added successfully
+2025-11-06 16:28:45,631 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:28:45,631 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:28:45,631 | WARNING | Product P100 already exists!
+2025-11-06 16:28:45,631 | INFO | Created Order: <Order: cfa407ac-95eb-4da9-955f-4b8bbb7cbacf, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:28:45,631 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:28:45,638 | INFO | Stock updated for: P100
+2025-11-06 16:28:45,643 | INFO | DB Write Operation Successful
+2025-11-06 16:28:45,644 | INFO | Order saved in DB: cfa407ac-95eb-4da9-955f-4b8bbb7cbacf
+2025-11-06 16:28:45,644 | INFO | Order processed: cfa407ac-95eb-4da9-955f-4b8bbb7cbacf
+2025-11-06 16:28:45,644 | INFO | Created Order: <Order: c46dada1-9d18-4ade-9e43-7d654729d1f6, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:28:45,644 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:28:45,650 | INFO | Stock updated for: P100
+2025-11-06 16:28:45,655 | INFO | DB Write Operation Successful
+2025-11-06 16:28:45,655 | INFO | Order saved in DB: c46dada1-9d18-4ade-9e43-7d654729d1f6
+2025-11-06 16:28:45,655 | INFO | Order processed: c46dada1-9d18-4ade-9e43-7d654729d1f6
+2025-11-06 16:28:45,655 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:28:45,655 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:32:59,294 | INFO | Connected to SQLite database
+2025-11-06 16:32:59,296 | INFO | Database tables created successfully
+2025-11-06 16:32:59,296 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:32:59,296 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:32:59,298 | INFO | Supplier S100 added successfully
+2025-11-06 16:32:59,298 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:32:59,298 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:32:59,298 | WARNING | Product P100 already exists!
+2025-11-06 16:32:59,299 | INFO | Created Order: <Order: ab14aeeb-3adf-4538-bafa-7fcc9805f6a8, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:32:59,299 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:32:59,303 | INFO | Stock updated for: P100
+2025-11-06 16:32:59,307 | INFO | DB Write Operation Successful
+2025-11-06 16:32:59,311 | INFO | Order saved in DB: ab14aeeb-3adf-4538-bafa-7fcc9805f6a8
+2025-11-06 16:32:59,311 | INFO | Order processed: ab14aeeb-3adf-4538-bafa-7fcc9805f6a8
+2025-11-06 16:32:59,311 | INFO | Created Order: <Order: 4636fb28-7948-4046-9d75-e386e8017ee9, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:32:59,311 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:32:59,317 | INFO | Stock updated for: P100
+2025-11-06 16:32:59,322 | INFO | DB Write Operation Successful
+2025-11-06 16:32:59,322 | INFO | Order saved in DB: 4636fb28-7948-4046-9d75-e386e8017ee9
+2025-11-06 16:32:59,323 | INFO | Order processed: 4636fb28-7948-4046-9d75-e386e8017ee9
+2025-11-06 16:32:59,323 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:32:59,323 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 16:34:20,753 | INFO | Connected to SQLite database
+2025-11-06 16:34:20,769 | INFO | Database tables created successfully
+2025-11-06 16:34:20,769 | INFO | Database connection closed
+2025-11-06 16:34:26,184 | INFO | Connected to SQLite database
+2025-11-06 16:34:26,184 | INFO | Database tables created successfully
+2025-11-06 16:34:26,184 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:34:26,184 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:34:26,184 | INFO | Supplier S100 added successfully
+2025-11-06 16:34:26,184 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:34:26,189 | INFO | Product saved to DB: P100
+2025-11-06 16:34:26,189 | INFO | Product P100 added successfully
+2025-11-06 16:34:26,189 | INFO | Created Order: <Order: 9c5d57b9-e886-4010-85cd-cfd3abbc0dc9, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:34:26,189 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:34:26,194 | INFO | Stock updated for: P100
+2025-11-06 16:34:26,199 | INFO | DB Write Operation Successful
+2025-11-06 16:34:26,200 | INFO | Order saved in DB: 9c5d57b9-e886-4010-85cd-cfd3abbc0dc9
+2025-11-06 16:34:26,200 | INFO | Order processed: 9c5d57b9-e886-4010-85cd-cfd3abbc0dc9
+2025-11-06 16:34:26,200 | INFO | Created Order: <Order: 762ee1d9-3840-4af8-9a6c-022f4f66dceb, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:34:26,200 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:34:26,205 | INFO | Stock updated for: P100
+2025-11-06 16:34:26,211 | INFO | DB Write Operation Successful
+2025-11-06 16:34:26,211 | INFO | Order saved in DB: 762ee1d9-3840-4af8-9a6c-022f4f66dceb
+2025-11-06 16:34:26,211 | INFO | Order processed: 762ee1d9-3840-4af8-9a6c-022f4f66dceb
+2025-11-06 16:34:26,211 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:36:54,609 | INFO | Connected to SQLite database
+2025-11-06 16:36:54,630 | INFO | Database tables created successfully
+2025-11-06 16:36:54,630 | INFO | Database connection closed
+2025-11-06 16:37:02,618 | INFO | Connected to SQLite database
+2025-11-06 16:37:02,618 | INFO | Database tables created successfully
+2025-11-06 16:37:02,618 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:37:02,621 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:37:02,621 | INFO | Supplier S100 added successfully
+2025-11-06 16:37:02,621 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:37:02,627 | INFO | Product saved to DB: P100
+2025-11-06 16:37:02,627 | INFO | Product P100 added successfully
+2025-11-06 16:37:02,628 | INFO | Created Order: <Order: 46fb4c9d-dc68-48af-9025-890d0568f0c7, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:37:02,628 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:37:02,631 | INFO | Stock updated for: P100
+2025-11-06 16:37:02,637 | INFO | DB Write Operation Successful
+2025-11-06 16:37:02,638 | INFO | Order saved in DB: 46fb4c9d-dc68-48af-9025-890d0568f0c7
+2025-11-06 16:37:02,638 | INFO | Order processed: 46fb4c9d-dc68-48af-9025-890d0568f0c7
+2025-11-06 16:37:02,638 | INFO | Created Order: <Order: c1d75ea4-71a8-45f5-a392-e41178ca6574, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:37:02,638 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:37:02,643 | INFO | Stock updated for: P100
+2025-11-06 16:37:02,649 | INFO | DB Write Operation Successful
+2025-11-06 16:37:02,649 | INFO | Order saved in DB: c1d75ea4-71a8-45f5-a392-e41178ca6574
+2025-11-06 16:37:02,649 | INFO | Order processed: c1d75ea4-71a8-45f5-a392-e41178ca6574
+2025-11-06 16:37:02,649 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:37:02,649 | ERROR | Invalid order type for <Order: 1, P100, Qty: 5>: P100
+2025-11-06 16:38:00,674 | INFO | Connected to SQLite database
+2025-11-06 16:38:00,696 | INFO | Database tables created successfully
+2025-11-06 16:38:00,699 | INFO | Database connection closed
+2025-11-06 16:38:04,793 | INFO | Connected to SQLite database
+2025-11-06 16:38:04,793 | INFO | Database tables created successfully
+2025-11-06 16:38:04,793 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:38:04,793 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:38:04,793 | INFO | Supplier S100 added successfully
+2025-11-06 16:38:04,793 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:38:04,801 | INFO | Product saved to DB: P100
+2025-11-06 16:38:04,801 | INFO | Product P100 added successfully
+2025-11-06 16:38:04,801 | INFO | Created Order: <Order: e6e5709c-8e69-468b-b9f5-eb50c30c3069, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:38:04,801 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:38:04,809 | INFO | Stock updated for: P100
+2025-11-06 16:38:04,814 | INFO | DB Write Operation Successful
+2025-11-06 16:38:04,814 | INFO | Order saved in DB: e6e5709c-8e69-468b-b9f5-eb50c30c3069
+2025-11-06 16:38:04,814 | INFO | Order processed: e6e5709c-8e69-468b-b9f5-eb50c30c3069
+2025-11-06 16:38:04,814 | INFO | Created Order: <Order: 7c7bf6d6-cbbb-41ce-aeb3-26a0adc9f4af, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:38:04,814 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:38:04,819 | INFO | Stock updated for: P100
+2025-11-06 16:38:04,819 | INFO | DB Write Operation Successful
+2025-11-06 16:38:04,819 | INFO | Order saved in DB: 7c7bf6d6-cbbb-41ce-aeb3-26a0adc9f4af
+2025-11-06 16:38:04,819 | INFO | Order processed: 7c7bf6d6-cbbb-41ce-aeb3-26a0adc9f4af
+2025-11-06 16:38:04,819 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:38:04,819 | ERROR | Invalid order type for <Order: 1, P100, Qty: 5>: P100
+2025-11-06 16:42:18,484 | INFO | Connected to SQLite database
+2025-11-06 16:42:18,486 | INFO | Database tables created successfully
+2025-11-06 16:42:18,486 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:42:18,486 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:42:18,487 | INFO | Supplier S100 added successfully
+2025-11-06 16:42:18,487 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:42:18,487 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:42:18,488 | WARNING | Product P100 already exists!
+2025-11-06 16:42:18,488 | INFO | Created Order: <Order: 0247dfa9-747e-45d4-93e6-9444df5d9bcb, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:42:18,488 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:42:18,491 | INFO | Stock updated for: P100
+2025-11-06 16:42:18,499 | INFO | DB Write Operation Successful
+2025-11-06 16:42:18,499 | INFO | Order saved in DB: 0247dfa9-747e-45d4-93e6-9444df5d9bcb
+2025-11-06 16:42:18,499 | INFO | Order processed: 0247dfa9-747e-45d4-93e6-9444df5d9bcb
+2025-11-06 16:42:18,499 | INFO | Created Order: <Order: 294b894c-44db-4aaa-85b0-c864d10a115a, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:42:18,499 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:42:18,505 | INFO | Stock updated for: P100
+2025-11-06 16:42:18,508 | INFO | DB Write Operation Successful
+2025-11-06 16:42:18,508 | INFO | Order saved in DB: 294b894c-44db-4aaa-85b0-c864d10a115a
+2025-11-06 16:42:18,510 | INFO | Order processed: 294b894c-44db-4aaa-85b0-c864d10a115a
+2025-11-06 16:42:18,510 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:42:18,510 | ERROR | Invalid order type for <Order: 1, p100, Qty: 5>: P100
+2025-11-06 16:48:09,480 | INFO | Connected to SQLite database
+2025-11-06 16:48:09,480 | INFO | Database tables created successfully
+2025-11-06 16:48:09,480 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:48:09,480 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:48:09,480 | INFO | Supplier S100 added successfully
+2025-11-06 16:48:09,480 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:48:09,480 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:48:09,480 | WARNING | Product P100 already exists!
+2025-11-06 16:48:09,480 | INFO | Created Order: <Order: 080e774c-61b2-4206-b96a-23a4269bfcae, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:48:09,480 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:48:09,490 | INFO | Stock updated for: P100
+2025-11-06 16:48:09,495 | INFO | DB Write Operation Successful
+2025-11-06 16:48:09,495 | INFO | Order saved in DB: 080e774c-61b2-4206-b96a-23a4269bfcae
+2025-11-06 16:48:09,495 | INFO | Order processed: 080e774c-61b2-4206-b96a-23a4269bfcae
+2025-11-06 16:48:09,495 | INFO | Created Order: <Order: ea3b6f73-927b-4c5f-83d2-6e72e3f1391a, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:48:09,495 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:48:09,501 | INFO | Stock updated for: P100
+2025-11-06 16:48:09,507 | INFO | DB Write Operation Successful
+2025-11-06 16:48:09,507 | INFO | Order saved in DB: ea3b6f73-927b-4c5f-83d2-6e72e3f1391a
+2025-11-06 16:48:09,507 | INFO | Order processed: ea3b6f73-927b-4c5f-83d2-6e72e3f1391a
+2025-11-06 16:48:09,507 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:48:09,507 | ERROR | Invalid order type for <Order: 1, p100, Qty: 5>: P100
+2025-11-06 16:53:53,981 | INFO | Connected to SQLite database
+2025-11-06 16:53:53,981 | INFO | Database tables created successfully
+2025-11-06 16:53:53,981 | INFO | DB Write Operation Successful
+2025-11-06 16:54:14,363 | INFO | Connected to SQLite database
+2025-11-06 16:54:14,363 | INFO | Database tables created successfully
+2025-11-06 16:54:14,371 | INFO | DB Write Operation Successful
+2025-11-06 16:54:14,371 | INFO | Created Supplier: Lenovo (ID: S100)
+2025-11-06 16:54:14,372 | ERROR | Failed to add supplier: 'Supplier' object has no attribute 'contact'
+2025-11-06 16:54:14,372 | INFO | Supplier S100 added successfully
+2025-11-06 16:54:14,372 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:54:14,373 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:54:14,373 | WARNING | Product P100 already exists!
+2025-11-06 16:54:14,373 | INFO | Created Order: <Order: 145d4f3d-585c-4b38-9037-b2bc14d9d0fa, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:54:14,373 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:54:14,379 | INFO | Stock updated for: P100
+2025-11-06 16:54:14,384 | INFO | DB Write Operation Successful
+2025-11-06 16:54:14,384 | INFO | Order saved in DB: 145d4f3d-585c-4b38-9037-b2bc14d9d0fa
+2025-11-06 16:54:14,384 | INFO | Order processed: 145d4f3d-585c-4b38-9037-b2bc14d9d0fa
+2025-11-06 16:54:14,384 | INFO | Created Order: <Order: 2c155850-641e-4a83-9955-6128bfd5a792, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 16:54:14,384 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:54:14,390 | INFO | Stock updated for: P100
+2025-11-06 16:54:14,393 | INFO | DB Write Operation Successful
+2025-11-06 16:54:14,393 | INFO | Order saved in DB: 2c155850-641e-4a83-9955-6128bfd5a792
+2025-11-06 16:54:14,393 | INFO | Order processed: 2c155850-641e-4a83-9955-6128bfd5a792
+2025-11-06 16:54:14,393 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 16:54:14,393 | INFO | Created Order: <Order: 7, purchase, Qty: 5>, Type=purchase, Product=P100, Qty=5
+2025-11-06 16:54:14,396 | INFO | Created Order: <Order: 8, sale, Qty: 3>, Type=sale, Product=P100, Qty=3
+2025-11-06 18:32:33,717 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 18:32:33,722 | INFO | Product saved to DB: P001
+2025-11-06 18:32:33,722 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-06 18:32:33,731 | INFO | Stock updated for: P001
+2025-11-06 18:32:33,732 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-06 18:32:33,732 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-07 23:54:12,862 | INFO | Connected to SQLite database
+2025-11-07 23:54:12,868 | INFO | Database tables created successfully
+2025-11-07 23:59:05,430 | INFO | Connected to SQLite database
+2025-11-07 23:59:05,431 | INFO | Database tables created successfully
+2025-11-08 00:01:26,501 | INFO | Connected to SQLite database
+2025-11-08 00:01:26,502 | INFO | Database tables created successfully
+2025-11-08 00:01:26,544 | INFO | Connected to SQLite database
+2025-11-08 00:01:26,545 | INFO | Database tables created successfully
+2025-11-08 00:01:47,727 | INFO | Connected to SQLite database
+2025-11-08 00:01:47,727 | INFO | Database tables created successfully
+2025-11-08 00:02:54,224 | INFO | Connected to SQLite database
+2025-11-08 00:02:54,224 | INFO | Database tables created successfully
+2025-11-08 00:02:54,242 | INFO | Connected to SQLite database
+2025-11-08 00:02:54,242 | INFO | Database tables created successfully
+2025-11-08 00:03:07,355 | INFO | Connected to SQLite database
+2025-11-08 00:03:07,356 | INFO | Database tables created successfully
+2025-11-08 00:03:07,425 | INFO | Connected to SQLite database
+2025-11-08 00:03:07,426 | INFO | Database tables created successfully
+2025-11-08 09:34:44,803 | INFO | Connected to SQLite database
+2025-11-08 09:34:44,803 | INFO | Connected to SQLite database
+2025-11-08 09:34:44,813 | INFO | Database tables created successfully
+2025-11-08 09:34:44,813 | INFO | Database tables created successfully
+2025-11-08 09:34:44,852 | INFO | Connected to SQLite database
+2025-11-08 09:34:44,852 | INFO | Connected to SQLite database
+2025-11-08 09:34:44,853 | INFO | Database tables created successfully
+2025-11-08 09:34:44,853 | INFO | Database tables created successfully
+2025-11-08 09:35:23,746 | INFO | Connected to SQLite database
+2025-11-08 09:35:23,747 | INFO | Database tables created successfully
+2025-11-08 09:35:23,754 | INFO | Connected to SQLite database
+2025-11-08 09:35:23,755 | INFO | Database tables created successfully
+2025-11-08 09:35:23,774 | INFO | Connected to SQLite database
+2025-11-08 09:35:23,774 | INFO | Database tables created successfully
+2025-11-08 09:35:23,779 | INFO | Connected to SQLite database
+2025-11-08 09:35:23,779 | INFO | Database tables created successfully
+2025-11-08 09:42:17,101 | INFO | Connected to SQLite database
+2025-11-08 09:42:17,102 | INFO | Database tables created successfully
+2025-11-08 09:42:17,108 | INFO | Connected to SQLite database
+2025-11-08 09:42:17,109 | INFO | Database tables created successfully
+2025-11-08 09:42:17,196 | INFO | Connected to SQLite database
+2025-11-08 09:42:17,197 | INFO | Database tables created successfully
+2025-11-08 09:42:17,202 | INFO | Connected to SQLite database
+2025-11-08 09:42:17,203 | INFO | Database tables created successfully
+2025-11-08 09:46:36,710 | INFO | Connected to SQLite database
+2025-11-08 09:46:36,710 | INFO | Database tables created successfully
+2025-11-08 09:46:36,804 | INFO | Connected to SQLite database
+2025-11-08 09:46:36,805 | INFO | Database tables created successfully
+2025-11-08 09:46:36,830 | INFO | Connected to SQLite database
+2025-11-08 09:46:36,831 | INFO | Database tables created successfully
+2025-11-08 09:46:36,843 | INFO | Connected to SQLite database
+2025-11-08 09:46:36,844 | INFO | Database tables created successfully
+2025-11-08 09:47:00,304 | INFO | Connected to SQLite database
+2025-11-08 09:47:00,304 | INFO | Database tables created successfully
+2025-11-08 09:47:00,312 | INFO | Connected to SQLite database
+2025-11-08 09:47:00,313 | INFO | Database tables created successfully
+2025-11-08 10:08:37,968 | INFO | Connected to SQLite database
+2025-11-08 10:08:37,969 | INFO | Database tables created successfully
+2025-11-08 10:08:37,981 | INFO | Connected to SQLite database
+2025-11-08 10:08:37,982 | INFO | Database tables created successfully
+2025-11-08 10:08:38,215 | INFO | Connected to SQLite database
+2025-11-08 10:08:38,217 | INFO | Database tables created successfully
+2025-11-08 10:08:38,242 | INFO | Connected to SQLite database
+2025-11-08 10:08:38,243 | INFO | Database tables created successfully
+2025-11-08 10:10:48,177 | INFO | Connected to SQLite database
+2025-11-08 10:10:48,178 | INFO | Database tables created successfully
+2025-11-08 10:10:48,187 | INFO | Connected to SQLite database
+2025-11-08 10:10:48,187 | INFO | Database tables created successfully
+2025-11-08 10:10:48,194 | INFO | Connected to SQLite database
+2025-11-08 10:10:48,195 | INFO | Database tables created successfully
+2025-11-08 10:10:48,206 | INFO | Connected to SQLite database
+2025-11-08 10:10:48,207 | INFO | Database tables created successfully
+2025-11-08 10:12:09,684 | INFO | Connected to SQLite database
+2025-11-08 10:12:09,685 | INFO | Database tables created successfully
+2025-11-08 10:12:09,710 | INFO | Connected to SQLite database
+2025-11-08 10:12:09,710 | INFO | Database tables created successfully
+2025-11-08 10:12:09,713 | INFO | Connected to SQLite database
+2025-11-08 10:12:09,714 | INFO | Database tables created successfully
+2025-11-08 10:12:09,718 | INFO | Connected to SQLite database
+2025-11-08 10:12:09,718 | INFO | Database tables created successfully
+2025-11-08 10:12:09,725 | INFO | Connected to SQLite database
+2025-11-08 10:12:09,725 | INFO | Database tables created successfully
+2025-11-08 10:12:09,729 | INFO | Connected to SQLite database
+2025-11-08 10:12:09,730 | INFO | Database tables created successfully
+2025-11-08 10:12:41,577 | INFO | Connected to SQLite database
+2025-11-08 10:12:41,578 | INFO | Database tables created successfully
+2025-11-08 10:12:41,605 | INFO | Connected to SQLite database
+2025-11-08 10:12:41,606 | INFO | Database tables created successfully
+2025-11-08 10:12:41,610 | INFO | Connected to SQLite database
+2025-11-08 10:12:41,611 | INFO | Database tables created successfully
+2025-11-08 10:12:41,616 | INFO | Connected to SQLite database
+2025-11-08 10:12:41,617 | INFO | Database tables created successfully
+2025-11-08 10:12:41,625 | INFO | Connected to SQLite database
+2025-11-08 10:12:41,626 | INFO | Database tables created successfully
+2025-11-08 10:12:41,631 | INFO | Connected to SQLite database
+2025-11-08 10:12:41,632 | INFO | Database tables created successfully
+2025-11-08 10:14:01,886 | INFO | Connected to SQLite database
+2025-11-08 10:14:01,887 | INFO | Database tables created successfully
+2025-11-08 10:14:01,892 | INFO | Connected to SQLite database
+2025-11-08 10:14:01,893 | INFO | Database tables created successfully
+2025-11-08 10:14:01,917 | INFO | Connected to SQLite database
+2025-11-08 10:14:01,918 | INFO | Database tables created successfully
+2025-11-08 10:14:01,956 | INFO | Connected to SQLite database
+2025-11-08 10:14:01,957 | INFO | Database tables created successfully
+2025-11-08 10:14:01,965 | INFO | Connected to SQLite database
+2025-11-08 10:14:01,965 | INFO | Database tables created successfully
+2025-11-08 10:14:01,970 | INFO | Connected to SQLite database
+2025-11-08 10:14:01,970 | INFO | Database tables created successfully
+2025-11-08 10:17:16,069 | INFO | Connected to SQLite database
+2025-11-08 10:17:16,070 | INFO | Database tables created successfully
+2025-11-08 10:17:16,074 | INFO | Connected to SQLite database
+2025-11-08 10:17:16,075 | INFO | Database tables created successfully
+2025-11-08 10:17:16,114 | INFO | Connected to SQLite database
+2025-11-08 10:17:16,116 | INFO | Database tables created successfully
+2025-11-08 10:17:16,185 | INFO | Connected to SQLite database
+2025-11-08 10:17:16,186 | INFO | Database tables created successfully
+2025-11-08 10:17:16,192 | INFO | Connected to SQLite database
+2025-11-08 10:17:16,193 | INFO | Database tables created successfully
+2025-11-08 10:17:16,197 | INFO | Connected to SQLite database
+2025-11-08 10:17:16,198 | INFO | Database tables created successfully
+2025-11-08 10:17:39,421 | INFO | Connected to SQLite database
+2025-11-08 10:17:39,422 | INFO | Database tables created successfully
+2025-11-08 10:17:39,429 | INFO | Connected to SQLite database
+2025-11-08 10:17:39,430 | INFO | Database tables created successfully
+2025-11-08 10:17:39,450 | INFO | Connected to SQLite database
+2025-11-08 10:17:39,451 | INFO | Database tables created successfully
+2025-11-08 10:17:39,457 | INFO | Connected to SQLite database
+2025-11-08 10:17:39,457 | INFO | Database tables created successfully
+2025-11-08 10:17:39,464 | INFO | Connected to SQLite database
+2025-11-08 10:17:39,464 | INFO | Database tables created successfully
+2025-11-08 10:17:39,469 | INFO | Connected to SQLite database
+2025-11-08 10:17:39,469 | INFO | Database tables created successfully
+2025-11-08 10:18:30,222 | INFO | Connected to SQLite database
+2025-11-08 10:18:30,222 | INFO | Database tables created successfully
+2025-11-08 10:18:30,228 | INFO | Connected to SQLite database
+2025-11-08 10:18:30,228 | INFO | Database tables created successfully
+2025-11-08 10:18:30,256 | INFO | Connected to SQLite database
+2025-11-08 10:18:30,256 | INFO | Database tables created successfully
+2025-11-08 10:18:30,339 | INFO | Connected to SQLite database
+2025-11-08 10:18:30,340 | INFO | Database tables created successfully
+2025-11-08 10:18:30,348 | INFO | Connected to SQLite database
+2025-11-08 10:18:30,349 | INFO | Database tables created successfully
+2025-11-08 10:18:30,353 | INFO | Connected to SQLite database
+2025-11-08 10:18:30,353 | INFO | Database tables created successfully
+2025-11-08 10:45:59,372 | INFO | Connected to SQLite database
+2025-11-08 10:45:59,373 | INFO | Database tables created successfully
+2025-11-08 10:45:59,378 | INFO | Connected to SQLite database
+2025-11-08 10:45:59,379 | INFO | Database tables created successfully
+2025-11-08 10:45:59,410 | INFO | Connected to SQLite database
+2025-11-08 10:45:59,411 | INFO | Database tables created successfully
+2025-11-08 10:45:59,427 | INFO | Connected to SQLite database
+2025-11-08 10:45:59,428 | INFO | Database tables created successfully
+2025-11-08 10:45:59,433 | INFO | Connected to SQLite database
+2025-11-08 10:45:59,434 | INFO | Database tables created successfully
+2025-11-08 10:45:59,438 | INFO | Connected to SQLite database
+2025-11-08 10:45:59,438 | INFO | Database tables created successfully
+2025-11-10 12:55:15,613 | INFO | Connected to SQLite database
+2025-11-10 12:55:15,614 | INFO | Database tables created successfully
+2025-11-10 12:55:15,619 | INFO | Connected to SQLite database
+2025-11-10 12:55:15,619 | INFO | Database tables created successfully
+2025-11-10 12:55:15,622 | INFO | Connected to SQLite database
+2025-11-10 12:55:15,623 | INFO | Database tables created successfully
+2025-11-10 13:15:34,305 | INFO | Connected to SQLite database
+2025-11-10 13:15:34,306 | INFO | Database tables created successfully
+2025-11-10 13:15:34,310 | INFO | Connected to SQLite database
+2025-11-10 13:15:34,311 | INFO | Database tables created successfully
+2025-11-10 13:15:34,313 | INFO | Connected to SQLite database
+2025-11-10 13:15:34,313 | INFO | Database tables created successfully
+2025-11-10 13:18:58,392 | INFO | Connected to SQLite database
+2025-11-10 13:18:58,392 | INFO | Database tables created successfully
+2025-11-10 13:18:58,397 | INFO | Connected to SQLite database
+2025-11-10 13:18:58,398 | INFO | Database tables created successfully
+2025-11-10 13:18:58,401 | INFO | Connected to SQLite database
+2025-11-10 13:18:58,401 | INFO | Database tables created successfully
+2025-11-10 13:20:14,384 | INFO | Connected to SQLite database
+2025-11-10 13:20:14,386 | INFO | Database tables created successfully
+2025-11-10 13:20:14,402 | INFO | Connected to SQLite database
+2025-11-10 13:20:14,403 | INFO | Database tables created successfully
+2025-11-10 13:20:14,411 | INFO | Connected to SQLite database
+2025-11-10 13:20:14,412 | INFO | Database tables created successfully
+2025-11-10 13:22:44,449 | INFO | Created Product: Laptop (ID: P101)
+2025-11-10 13:22:46,653 | INFO | Created Product: Laptop (ID: P101)
+2025-11-10 15:50:17,060 | INFO | Connected to SQLite database
+2025-11-10 15:50:17,062 | INFO | Database tables created successfully
+2025-11-10 15:50:17,077 | INFO | Connected to SQLite database
+2025-11-10 15:50:17,078 | INFO | Database tables created successfully
+2025-11-10 15:50:17,084 | INFO | Connected to SQLite database
+2025-11-10 15:50:17,085 | INFO | Database tables created successfully
+2025-11-10 15:51:37,486 | INFO | Created Product: Laptop (ID: P101)
+2025-11-10 18:26:34,811 | INFO | Created Supplier: LG (ID: S100)
+2025-11-10 18:28:36,370 | INFO | Connected to SQLite database
+2025-11-10 18:28:36,371 | INFO | Database tables created successfully
+2025-11-10 18:28:36,385 | INFO | Connected to SQLite database
+2025-11-10 18:28:36,385 | INFO | Database tables created successfully
+2025-11-10 18:28:36,389 | INFO | Connected to SQLite database
+2025-11-10 18:28:36,389 | INFO | Database tables created successfully
+2025-11-10 18:29:12,731 | INFO | Created Supplier: LG (ID: S100)
+2025-11-10 18:46:10,434 | INFO | Connected to SQLite database
+2025-11-10 18:46:10,436 | INFO | Database tables created successfully
+2025-11-10 18:46:10,448 | INFO | Connected to SQLite database
+2025-11-10 18:46:10,449 | INFO | Database tables created successfully
+2025-11-10 18:46:10,455 | INFO | Connected to SQLite database
+2025-11-10 18:46:10,456 | INFO | Database tables created successfully
+2025-11-10 18:47:32,739 | INFO | Connected to SQLite database
+2025-11-10 18:47:32,741 | INFO | Database tables created successfully
+2025-11-10 18:47:32,757 | INFO | Connected to SQLite database
+2025-11-10 18:47:32,759 | INFO | Database tables created successfully
+2025-11-10 18:47:32,766 | INFO | Connected to SQLite database
+2025-11-10 18:47:32,767 | INFO | Database tables created successfully
+2025-11-10 18:52:39,831 | INFO | Created Supplier: LG (ID: S100)
+2025-11-10 18:52:39,834 | ERROR | Failed to add supplier: 'SupplierDB' object has no attribute 'connection'
+2025-11-10 18:52:39,834 | INFO | Supplier S100 added successfully
+2025-11-11 10:20:10,259 | INFO | Created Supplier: LG (ID: S100)
+2025-11-11 10:20:10,259 | INFO | Fetched 1 suppliers from DB
+2025-11-11 10:20:12,159 | INFO | Created Supplier: LG (ID: S100)
+2025-11-11 10:20:12,159 | INFO | Fetched 1 suppliers from DB
+2025-11-11 10:20:48,657 | INFO | Created Product: Laptop (ID: P101)
+2025-11-11 10:20:54,022 | ERROR | Failed to add product: database is locked
+2025-11-11 10:20:54,023 | INFO | Product P101 added successfully
+2025-11-11 10:21:43,960 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-11 10:21:43,960 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-11 11:35:25,021 | INFO | Created Order: <Order: O100, purchase, Qty: 10>, Type=purchase, Product=P100, Qty=10
+2025-11-11 11:35:25,021 | INFO | Created Product: Laptop ThinkPad (ID: P100)
+2025-11-11 11:35:30,586 | ERROR | Failed to update stock: database is locked
+2025-11-11 11:35:30,586 | ERROR | DB Write Operation Failed: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 7568 and this is thread id 16584.
+2025-11-11 11:35:30,587 | ERROR | Error saving order O100: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 7568 and this is thread id 16584.
+2025-11-11 11:36:10,822 | INFO | Created Order: <Order: O100, purchase, Qty: 10>, Type=purchase, Product=P001, Qty=10
+2025-11-11 11:36:10,822 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-11 11:36:10,822 | ERROR | Failed to update stock: database is locked
+2025-11-11 11:36:10,822 | ERROR | DB Write Operation Failed: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 7568 and this is thread id 16584.
+2025-11-11 11:36:10,822 | ERROR | Error saving order O100: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 7568 and this is thread id 16584.
+2025-11-11 11:37:23,298 | INFO | Created Order: <Order: O100, sale, Qty: 10>, Type=sale, Product=P001, Qty=10
+2025-11-11 11:37:23,298 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-11 11:37:23,298 | ERROR | Failed to update stock: database is locked
+2025-11-11 11:37:23,298 | ERROR | DB Write Operation Failed: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 7568 and this is thread id 16584.
+2025-11-11 11:37:23,298 | ERROR | Error saving order O100: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 7568 and this is thread id 16584.
+2025-11-11 11:49:48,309 | INFO | Connected to SQLite database
+2025-11-11 11:49:48,311 | INFO | Database tables created successfully
+2025-11-11 11:49:48,323 | INFO | Connected to SQLite database
+2025-11-11 11:49:48,324 | INFO | Database tables created successfully
+2025-11-11 11:49:48,332 | INFO | Connected to SQLite database
+2025-11-11 11:49:48,333 | INFO | Database tables created successfully
+2025-11-11 11:51:14,272 | INFO | Connected to SQLite database
+2025-11-11 11:51:14,274 | INFO | Database tables created successfully
+2025-11-11 11:51:14,285 | INFO | Connected to SQLite database
+2025-11-11 11:51:14,286 | INFO | Database tables created successfully
+2025-11-11 11:54:41,443 | INFO | Connected to SQLite database
+2025-11-11 11:54:41,443 | INFO | Database tables created successfully
+2025-11-11 11:54:41,451 | INFO | Connected to SQLite database
+2025-11-11 11:54:41,452 | INFO | Database tables created successfully
+2025-11-11 11:55:02,919 | INFO | Connected to SQLite database
+2025-11-11 11:55:02,919 | INFO | Database tables created successfully
+2025-11-11 11:55:10,685 | INFO | Connected to SQLite database
+2025-11-11 11:55:10,686 | INFO | Database tables created successfully
+2025-11-11 11:55:15,847 | INFO | Connected to SQLite database
+2025-11-11 11:55:15,848 | INFO | Database tables created successfully
+2025-11-11 11:57:08,520 | INFO | Connected to SQLite database
+2025-11-11 11:57:08,521 | INFO | Database tables created successfully
+2025-11-11 11:57:08,523 | INFO | Created Order: <Order: O100, sale, Qty: 10>, Type=sale, Product=P001, Qty=10
+2025-11-11 11:57:08,523 | INFO | Created Product: Keyboard (ID: P001)
+2025-11-11 11:57:08,524 | ERROR | Failed to update stock: 'ProductDB' object has no attribute 'connection'
+2025-11-11 11:57:13,957 | ERROR | DB Write Operation Failed: database is locked
+2025-11-11 11:57:13,958 | ERROR | Error saving order O100: database is locked
+2025-11-12 13:02:45,072 | INFO | Database connection closed
+2025-11-12 13:06:47,574 | INFO | Database connection closed
+2025-11-12 13:14:10,032 | INFO | DB Write Operation Successful
+2025-11-12 13:14:10,057 | INFO | DB Write Operation Successful
+2025-11-12 13:14:10,073 | INFO | DB Write Operation Successful
+2025-11-12 13:14:10,074 | INFO | Created Supplier: LG Corporation (ID: S002)
+2025-11-12 13:14:10,074 | INFO | DB Write Operation Successful
+2025-11-12 13:18:47,606 | INFO | DB Write Operation Successful
+2025-11-12 13:18:47,615 | INFO | DB Write Operation Successful
+2025-11-12 13:18:47,616 | INFO | DB Write Operation Successful
+2025-11-12 13:18:47,616 | INFO | Created Supplier: LG Corporation (ID: S002)
+2025-11-12 13:18:47,620 | INFO | DB Write Operation Successful
+2025-11-12 13:18:47,620 | INFO | Supplier added to DB: S002
+2025-11-12 13:18:47,620 | INFO | Supplier S002 added successfully
+2025-11-12 13:27:57,404 | INFO | DB Write Operation Successful
+2025-11-12 13:27:57,405 | INFO | DB Write Operation Successful
+2025-11-12 13:27:57,406 | INFO | DB Write Operation Successful
+2025-11-12 13:27:57,407 | INFO | Created Supplier: LG (ID: S100)
+2025-11-12 13:27:57,426 | INFO | DB Write Operation Successful
+2025-11-12 13:27:57,426 | INFO | Supplier added to DB: S100
+2025-11-12 13:27:57,426 | INFO | Supplier S100 added successfully
+2025-11-12 13:28:32,552 | INFO | DB Write Operation Successful
+2025-11-12 13:28:32,552 | INFO | DB Write Operation Successful
+2025-11-12 13:28:32,553 | INFO | DB Write Operation Successful
+2025-11-12 13:28:32,554 | INFO | Created Supplier: Sony (ID: S003)
+2025-11-12 13:28:32,554 | INFO | DB Write Operation Successful
+2025-11-12 13:28:32,555 | INFO | Supplier added to DB: S003
+2025-11-12 13:28:32,555 | INFO | Supplier S003 added successfully
+2025-11-12 13:28:48,067 | INFO | DB Write Operation Successful
+2025-11-12 13:28:48,067 | INFO | DB Write Operation Successful
+2025-11-12 13:28:48,068 | INFO | DB Write Operation Successful
+2025-11-12 13:28:48,069 | INFO | Created Supplier: LG Corporation (ID: S002)
+2025-11-12 13:28:48,069 | INFO | Created Supplier: LG (ID: S100)
+2025-11-12 13:28:48,069 | INFO | Created Supplier: Sony (ID: S003)
+2025-11-12 13:28:48,069 | INFO | Fetched 3 suppliers from DB
+2025-11-12 13:29:13,297 | INFO | DB Write Operation Successful
+2025-11-12 13:29:13,298 | INFO | DB Write Operation Successful
+2025-11-12 13:29:13,299 | INFO | DB Write Operation Successful
+2025-11-12 13:29:13,299 | INFO | Created Supplier: LG Corporation (ID: S002)
+2025-11-12 13:36:38,790 | INFO | DB Write Operation Successful
+2025-11-12 13:36:38,790 | INFO | DB Write Operation Successful
+2025-11-12 13:36:38,791 | INFO | DB Write Operation Successful
+2025-11-12 13:36:38,792 | INFO | Created Product: LED TV (ID: P100)
+2025-11-12 13:36:38,793 | INFO | DB Write Operation Successful
+2025-11-12 13:36:38,794 | INFO | Product saved to DB: P100
+2025-11-12 13:36:38,794 | INFO | Product P100 added successfully
+2025-11-12 13:37:40,491 | INFO | DB Write Operation Successful
+2025-11-12 13:37:40,491 | INFO | DB Write Operation Successful
+2025-11-12 13:37:40,492 | INFO | DB Write Operation Successful
+2025-11-12 13:37:40,492 | INFO | Created Order: <Order: 9ceb9ad0-721e-4330-8ef0-386926d6c5e8, sale, Qty: 2>, Type=sale, Product=P100, Qty=2
+2025-11-12 13:37:40,493 | INFO | Created Product: LED TV (ID: P100)
+2025-11-12 13:37:40,494 | INFO | DB Write Operation Successful
+2025-11-12 13:37:40,494 | INFO | Stock updated for: P100
+2025-11-12 13:37:40,495 | INFO | DB Write Operation Successful
+2025-11-12 13:37:40,495 | INFO | Order saved in DB: 9ceb9ad0-721e-4330-8ef0-386926d6c5e8
+2025-11-12 13:37:40,495 | INFO | Order processed: 9ceb9ad0-721e-4330-8ef0-386926d6c5e8
+2025-11-12 13:37:54,837 | INFO | DB Write Operation Successful
+2025-11-12 13:37:54,838 | INFO | DB Write Operation Successful
+2025-11-12 13:37:54,839 | INFO | DB Write Operation Successful
+2025-11-12 13:37:54,839 | INFO | Created Order: <Order: 1, sale, Qty: 2>, Type=sale, Product=P100, Qty=2
+2025-11-12 13:38:12,124 | INFO | DB Write Operation Successful
+2025-11-12 13:38:12,125 | INFO | DB Write Operation Successful
+2025-11-12 13:38:12,126 | INFO | DB Write Operation Successful
+2025-11-12 13:38:12,126 | INFO | Created Order: <Order: 1, sale, Qty: 2>, Type=sale, Product=P100, Qty=2
+2025-11-12 13:38:37,631 | INFO | DB Write Operation Successful
+2025-11-12 13:38:37,632 | INFO | DB Write Operation Successful
+2025-11-12 13:38:37,633 | INFO | DB Write Operation Successful
+2025-11-12 13:38:37,633 | INFO | Created Product: LED TV (ID: P100)
+2025-11-12 13:38:49,109 | INFO | DB Write Operation Successful
+2025-11-12 13:38:49,110 | INFO | DB Write Operation Successful
+2025-11-12 13:38:49,111 | INFO | DB Write Operation Successful
+2025-11-12 13:38:49,112 | INFO | Created Product: LED TV (ID: P100)
+2025-11-12 18:35:58,959 | INFO | DB Write Operation Successful
+2025-11-12 18:35:58,959 | INFO | DB Write Operation Successful
+2025-11-12 18:35:58,960 | INFO | DB Write Operation Successful
+2025-11-12 18:35:58,961 | INFO | Created Product: LED TV (ID: P100)
+2025-11-12 18:36:10,434 | INFO | DB Write Operation Successful
+2025-11-12 18:36:10,441 | INFO | DB Write Operation Successful
+2025-11-12 18:36:10,443 | INFO | DB Write Operation Successful
+2025-11-12 18:41:53,347 | INFO | DB Write Operation Successful
+2025-11-12 18:41:53,361 | INFO | DB Write Operation Successful
+2025-11-12 18:41:53,363 | INFO | DB Write Operation Successful
+2025-11-12 18:41:53,366 | ERROR | DB Write Operation Failed: FOREIGN KEY constraint failed
+2025-11-12 18:41:53,366 | ERROR | Error deleting product P100: FOREIGN KEY constraint failed
+2025-11-17 17:20:21,358 | INFO | DB Write Operation Successful
+2025-11-17 17:20:21,360 | INFO | DB Write Operation Successful
+2025-11-17 17:20:21,361 | INFO | DB Write Operation Successful
+2025-11-17 17:20:38,401 | ERROR | DB Write Operation Failed: no such table: products
+2025-11-17 17:20:50,443 | INFO | Database connection closed
+2025-11-17 17:20:54,205 | ERROR | DB Write Operation Failed: no such table: products
+2025-11-17 17:22:25,632 | ERROR | DB Write Operation Failed: no such table: products
+2025-11-17 17:24:04,123 | INFO | Database connection closed
+2025-11-17 17:25:17,347 | INFO | Database connection closed
+2025-11-17 17:36:48,815 | INFO | Database connection closed
+2025-11-17 19:55:14,454 | INFO | Database connection closed
+2025-11-17 20:00:11,287 | INFO | DB Write Operation Successful
+2025-11-17 20:02:05,182 | INFO | DB Write Operation Successful
+2025-11-17 20:03:15,718 | INFO | DB Write Operation Successful
+2025-11-17 20:10:16,043 | INFO | DB Write Operation Successful
+2025-11-17 20:10:16,044 | INFO | DB Write Operation Successful
+2025-11-17 20:10:16,046 | INFO | DB Write Operation Successful
+2025-11-17 23:27:49,783 | INFO | DB Write Operation Successful
+2025-11-17 23:27:49,800 | INFO | DB Write Operation Successful
+2025-11-17 23:27:49,801 | INFO | DB Write Operation Successful
+2025-11-17 23:28:07,153 | INFO | DB Write Operation Successful
+2025-11-17 23:28:07,155 | INFO | DB Write Operation Successful
+2025-11-17 23:28:07,157 | INFO | DB Write Operation Successful
+2025-11-17 23:28:07,158 | INFO | Fetched 0 suppliers from DB
+2025-11-17 23:30:51,383 | INFO | DB Write Operation Successful
+2025-11-17 23:30:51,384 | INFO | DB Write Operation Successful
+2025-11-17 23:30:51,386 | INFO | DB Write Operation Successful
+2025-11-17 23:30:52,877 | INFO | DB Write Operation Successful
+2025-11-17 23:30:52,879 | INFO | DB Write Operation Successful
+2025-11-17 23:30:52,881 | INFO | DB Write Operation Successful
+2025-11-17 23:31:06,983 | INFO | DB Write Operation Successful
+2025-11-17 23:31:06,991 | INFO | DB Write Operation Successful
+2025-11-17 23:31:06,998 | INFO | DB Write Operation Successful
+2025-11-17 23:31:06,999 | INFO | Created Supplier: Tech Supplies Ltd. (ID: S001)
+2025-11-17 23:31:07,004 | INFO | DB Write Operation Successful
+2025-11-17 23:31:07,004 | INFO | Supplier added to DB: S001
+2025-11-17 23:31:07,004 | INFO | Supplier S001 added successfully
+2025-11-17 23:31:26,071 | INFO | DB Write Operation Successful
+2025-11-17 23:31:26,073 | INFO | DB Write Operation Successful
+2025-11-17 23:31:26,075 | INFO | DB Write Operation Successful
+2025-11-17 23:31:26,076 | INFO | Created Supplier: Global Electronics (ID: S002)
+2025-11-17 23:31:26,078 | INFO | DB Write Operation Successful
+2025-11-17 23:31:26,079 | INFO | Supplier added to DB: S002
+2025-11-17 23:31:26,079 | INFO | Supplier S002 added successfully
+2025-11-17 23:31:48,494 | INFO | DB Write Operation Successful
+2025-11-17 23:31:48,496 | INFO | DB Write Operation Successful
+2025-11-17 23:31:48,497 | INFO | DB Write Operation Successful
+2025-11-17 23:31:48,498 | INFO | Created Supplier: Fresh Farms (ID: S003)
+2025-11-17 23:31:48,500 | INFO | DB Write Operation Successful
+2025-11-17 23:31:48,500 | INFO | Supplier added to DB: S003
+2025-11-17 23:31:48,500 | INFO | Supplier S003 added successfully
+2025-11-17 23:32:20,338 | INFO | DB Write Operation Successful
+2025-11-17 23:32:20,339 | INFO | DB Write Operation Successful
+2025-11-17 23:32:20,341 | INFO | DB Write Operation Successful
+2025-11-17 23:32:20,342 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:32:20,344 | INFO | DB Write Operation Successful
+2025-11-17 23:32:20,344 | INFO | Product saved to DB: P001
+2025-11-17 23:32:20,344 | INFO | Product P001 added successfully
+2025-11-17 23:32:21,436 | INFO | DB Write Operation Successful
+2025-11-17 23:32:21,438 | INFO | DB Write Operation Successful
+2025-11-17 23:32:21,441 | INFO | DB Write Operation Successful
+2025-11-17 23:32:21,442 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:32:43,178 | ERROR | DB Write Operation Failed: duplicate column name: is_deleted
+2025-11-17 23:38:26,173 | INFO | DB Write Operation Successful
+2025-11-17 23:38:26,193 | INFO | DB Write Operation Successful
+2025-11-17 23:38:26,194 | INFO | DB Write Operation Successful
+2025-11-17 23:38:26,195 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:38:26,196 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:38:26,196 | WARNING | Product P001 already exists!
+2025-11-17 23:39:02,691 | INFO | DB Write Operation Successful
+2025-11-17 23:39:02,693 | INFO | DB Write Operation Successful
+2025-11-17 23:39:02,694 | INFO | DB Write Operation Successful
+2025-11-17 23:42:14,166 | INFO | DB Write Operation Successful
+2025-11-17 23:42:14,186 | INFO | DB Write Operation Successful
+2025-11-17 23:42:14,188 | INFO | DB Write Operation Successful
+2025-11-17 23:42:14,190 | INFO | Created Order: <Order: b13e0476-64e8-4b25-9da8-ce59f786301c, sale, Qty: 10>, Type=sale, Product=P002, Qty=10
+2025-11-17 23:42:16,360 | INFO | DB Write Operation Successful
+2025-11-17 23:42:16,362 | INFO | DB Write Operation Successful
+2025-11-17 23:42:16,364 | INFO | DB Write Operation Successful
+2025-11-17 23:42:16,365 | INFO | Created Order: <Order: 9a267523-3243-4014-b654-920d2508aca3, sale, Qty: 10>, Type=sale, Product=P002, Qty=10
+2025-11-17 23:42:43,316 | INFO | DB Write Operation Successful
+2025-11-17 23:42:43,318 | INFO | DB Write Operation Successful
+2025-11-17 23:42:43,320 | INFO | DB Write Operation Successful
+2025-11-17 23:42:43,321 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:43:00,712 | INFO | DB Write Operation Successful
+2025-11-17 23:43:00,714 | INFO | DB Write Operation Successful
+2025-11-17 23:43:00,719 | INFO | DB Write Operation Successful
+2025-11-17 23:43:00,720 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:43:00,724 | INFO | DB Write Operation Successful
+2025-11-17 23:43:00,724 | INFO | Product saved to DB: P002
+2025-11-17 23:43:00,724 | INFO | Product P002 added successfully
+2025-11-17 23:43:02,549 | INFO | DB Write Operation Successful
+2025-11-17 23:43:02,552 | INFO | DB Write Operation Successful
+2025-11-17 23:43:02,553 | INFO | DB Write Operation Successful
+2025-11-17 23:43:02,555 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:43:02,555 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:43:02,555 | WARNING | Product P002 already exists!
+2025-11-17 23:43:25,864 | INFO | DB Write Operation Successful
+2025-11-17 23:43:25,866 | INFO | DB Write Operation Successful
+2025-11-17 23:43:25,868 | INFO | DB Write Operation Successful
+2025-11-17 23:43:25,869 | INFO | Created Product: Keyboard (ID: P003)
+2025-11-17 23:43:25,871 | INFO | DB Write Operation Successful
+2025-11-17 23:43:25,871 | INFO | Product saved to DB: P003
+2025-11-17 23:43:25,872 | INFO | Product P003 added successfully
+2025-11-17 23:43:38,798 | INFO | DB Write Operation Successful
+2025-11-17 23:43:38,800 | INFO | DB Write Operation Successful
+2025-11-17 23:43:38,802 | INFO | DB Write Operation Successful
+2025-11-17 23:43:38,802 | INFO | Created Product: Apples (ID: P004)
+2025-11-17 23:43:38,804 | INFO | DB Write Operation Successful
+2025-11-17 23:43:38,804 | INFO | Product saved to DB: P004
+2025-11-17 23:43:38,805 | INFO | Product P004 added successfully
+2025-11-17 23:43:50,380 | INFO | DB Write Operation Successful
+2025-11-17 23:43:50,382 | INFO | DB Write Operation Successful
+2025-11-17 23:43:50,383 | INFO | DB Write Operation Successful
+2025-11-17 23:43:50,384 | INFO | Created Product: Bananas (ID: P005)
+2025-11-17 23:43:50,387 | INFO | DB Write Operation Successful
+2025-11-17 23:43:50,387 | INFO | Product saved to DB: P005
+2025-11-17 23:43:50,387 | INFO | Product P005 added successfully
+2025-11-17 23:44:02,533 | INFO | DB Write Operation Successful
+2025-11-17 23:44:02,535 | INFO | DB Write Operation Successful
+2025-11-17 23:44:02,536 | INFO | DB Write Operation Successful
+2025-11-17 23:44:02,538 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:44:02,538 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:44:02,538 | INFO | Created Product: Keyboard (ID: P003)
+2025-11-17 23:44:02,538 | INFO | Created Product: Apples (ID: P004)
+2025-11-17 23:44:02,538 | INFO | Created Product: Bananas (ID: P005)
+2025-11-17 23:44:31,184 | INFO | DB Write Operation Successful
+2025-11-17 23:44:31,193 | INFO | DB Write Operation Successful
+2025-11-17 23:44:31,198 | INFO | DB Write Operation Successful
+2025-11-17 23:44:31,199 | INFO | Created Order: <Order: 5fc366b3-76da-4497-9d50-f2bf5230efcc, purchase, Qty: 5>, Type=purchase, Product=P001, Qty=5
+2025-11-17 23:44:31,199 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:44:31,201 | INFO | DB Write Operation Successful
+2025-11-17 23:44:31,201 | INFO | Stock updated for: P001
+2025-11-17 23:44:31,203 | INFO | DB Write Operation Successful
+2025-11-17 23:44:31,203 | INFO | Order saved in DB: 5fc366b3-76da-4497-9d50-f2bf5230efcc
+2025-11-17 23:44:31,203 | INFO | Order processed: 5fc366b3-76da-4497-9d50-f2bf5230efcc
+2025-11-17 23:44:44,380 | INFO | DB Write Operation Successful
+2025-11-17 23:44:44,381 | INFO | DB Write Operation Successful
+2025-11-17 23:44:44,383 | INFO | DB Write Operation Successful
+2025-11-17 23:44:44,385 | INFO | Created Order: <Order: 8cbf2ab2-2d8f-4804-96b5-55253817b51e, sale, Qty: 10>, Type=sale, Product=P002, Qty=10
+2025-11-17 23:44:44,385 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:44:44,387 | INFO | DB Write Operation Successful
+2025-11-17 23:44:44,387 | INFO | Stock updated for: P002
+2025-11-17 23:44:44,389 | INFO | DB Write Operation Successful
+2025-11-17 23:44:44,389 | INFO | Order saved in DB: 8cbf2ab2-2d8f-4804-96b5-55253817b51e
+2025-11-17 23:44:44,389 | INFO | Order processed: 8cbf2ab2-2d8f-4804-96b5-55253817b51e
+2025-11-17 23:44:57,337 | INFO | DB Write Operation Successful
+2025-11-17 23:44:57,339 | INFO | DB Write Operation Successful
+2025-11-17 23:44:57,340 | INFO | DB Write Operation Successful
+2025-11-17 23:44:57,341 | INFO | Created Order: <Order: c12d6649-7d38-4768-b98c-dbec8e9df2e2, purchase, Qty: 20>, Type=purchase, Product=P003, Qty=20
+2025-11-17 23:44:57,341 | INFO | Created Product: Keyboard (ID: P003)
+2025-11-17 23:44:57,343 | INFO | DB Write Operation Successful
+2025-11-17 23:44:57,343 | INFO | Stock updated for: P003
+2025-11-17 23:44:57,344 | INFO | DB Write Operation Successful
+2025-11-17 23:44:57,345 | INFO | Order saved in DB: c12d6649-7d38-4768-b98c-dbec8e9df2e2
+2025-11-17 23:44:57,345 | INFO | Order processed: c12d6649-7d38-4768-b98c-dbec8e9df2e2
+2025-11-17 23:45:24,430 | INFO | DB Write Operation Successful
+2025-11-17 23:45:24,431 | INFO | DB Write Operation Successful
+2025-11-17 23:45:24,433 | INFO | DB Write Operation Successful
+2025-11-17 23:45:24,434 | INFO | Created Order: <Order: 2b72adfa-ea4d-4558-90c0-f72310dd213b, purchase, Qty: 30>, Type=purchase, Product=P005, Qty=30
+2025-11-17 23:45:24,434 | INFO | Created Product: Bananas (ID: P005)
+2025-11-17 23:45:24,435 | INFO | DB Write Operation Successful
+2025-11-17 23:45:24,436 | INFO | Stock updated for: P005
+2025-11-17 23:45:24,437 | INFO | DB Write Operation Successful
+2025-11-17 23:45:24,437 | INFO | Order saved in DB: 2b72adfa-ea4d-4558-90c0-f72310dd213b
+2025-11-17 23:45:24,438 | INFO | Order processed: 2b72adfa-ea4d-4558-90c0-f72310dd213b
+2025-11-17 23:46:17,352 | INFO | DB Write Operation Successful
+2025-11-17 23:46:17,362 | INFO | DB Write Operation Successful
+2025-11-17 23:46:17,364 | INFO | DB Write Operation Successful
+2025-11-17 23:46:28,185 | INFO | DB Write Operation Successful
+2025-11-17 23:46:28,186 | INFO | DB Write Operation Successful
+2025-11-17 23:46:28,187 | INFO | DB Write Operation Successful
+2025-11-17 23:46:28,189 | INFO | Created Supplier: Tech Supplies Ltd. (ID: S001)
+2025-11-17 23:46:28,189 | INFO | Created Supplier: Tech Supplies Ltd. (ID: S001)
+2025-11-17 23:46:28,189 | WARNING | Supplier S001 already exists!
+2025-11-17 23:46:43,954 | INFO | DB Write Operation Successful
+2025-11-17 23:46:43,956 | INFO | DB Write Operation Successful
+2025-11-17 23:46:43,957 | INFO | DB Write Operation Successful
+2025-11-17 23:46:43,959 | INFO | Created Supplier: Global Electronics (ID: S002)
+2025-11-17 23:46:43,959 | INFO | Created Supplier: Global Electronics (ID: S002)
+2025-11-17 23:46:43,959 | WARNING | Supplier S002 already exists!
+2025-11-17 23:46:59,677 | INFO | DB Write Operation Successful
+2025-11-17 23:46:59,679 | INFO | DB Write Operation Successful
+2025-11-17 23:46:59,680 | INFO | DB Write Operation Successful
+2025-11-17 23:46:59,681 | INFO | Created Supplier: Fresh Farms (ID: S003)
+2025-11-17 23:46:59,681 | INFO | Created Supplier: Fresh Farms (ID: S003)
+2025-11-17 23:46:59,681 | WARNING | Supplier S003 already exists!
+2025-11-17 23:47:08,689 | INFO | DB Write Operation Successful
+2025-11-17 23:47:08,691 | INFO | DB Write Operation Successful
+2025-11-17 23:47:08,692 | INFO | DB Write Operation Successful
+2025-11-17 23:47:08,694 | INFO | Created Supplier: Fresh Farms (ID: S003)
+2025-11-17 23:47:08,694 | INFO | Created Supplier: Global Electronics (ID: S002)
+2025-11-17 23:47:08,694 | INFO | Created Supplier: Tech Supplies Ltd. (ID: S001)
+2025-11-17 23:47:08,694 | INFO | Fetched 3 suppliers from DB
+2025-11-17 23:47:24,940 | INFO | DB Write Operation Successful
+2025-11-17 23:47:24,942 | INFO | DB Write Operation Successful
+2025-11-17 23:47:24,944 | INFO | DB Write Operation Successful
+2025-11-17 23:47:24,946 | INFO | Created Product: Laptop (ID: P001)
+2025-11-17 23:47:24,946 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:47:24,946 | INFO | Created Product: Keyboard (ID: P003)
+2025-11-17 23:47:24,946 | INFO | Created Product: Apples (ID: P004)
+2025-11-17 23:47:24,947 | INFO | Created Product: Bananas (ID: P005)
+2025-11-17 23:47:50,495 | INFO | DB Write Operation Successful
+2025-11-17 23:47:50,496 | INFO | DB Write Operation Successful
+2025-11-17 23:47:50,499 | INFO | DB Write Operation Successful
+2025-11-17 23:47:50,502 | INFO | DB Write Operation Successful
+2025-11-17 23:47:50,502 | INFO | Product P001 marked as deleted.
+2025-11-17 23:47:51,888 | INFO | DB Write Operation Successful
+2025-11-17 23:47:51,889 | INFO | DB Write Operation Successful
+2025-11-17 23:47:51,891 | INFO | DB Write Operation Successful
+2025-11-17 23:47:51,892 | INFO | DB Write Operation Successful
+2025-11-17 23:47:51,892 | INFO | Product P001 marked as deleted.
+2025-11-17 23:48:03,232 | INFO | DB Write Operation Successful
+2025-11-17 23:48:03,234 | INFO | DB Write Operation Successful
+2025-11-17 23:48:03,235 | INFO | DB Write Operation Successful
+2025-11-17 23:48:03,236 | INFO | Created Product: Mouse (ID: P002)
+2025-11-17 23:48:03,236 | INFO | Created Product: Keyboard (ID: P003)
+2025-11-17 23:48:03,237 | INFO | Created Product: Apples (ID: P004)
+2025-11-17 23:48:03,237 | INFO | Created Product: Bananas (ID: P005)
+2025-11-17 23:48:33,454 | INFO | DB Write Operation Successful
+2025-11-17 23:48:33,455 | INFO | DB Write Operation Successful
+2025-11-17 23:48:33,457 | INFO | DB Write Operation Successful
+2025-11-17 23:48:57,183 | INFO | DB Write Operation Successful
+2025-11-17 23:48:57,185 | INFO | DB Write Operation Successful
+2025-11-17 23:48:57,187 | INFO | DB Write Operation Successful
+2025-11-17 23:52:25,972 | INFO | DB Write Operation Successful
+2025-11-17 23:52:25,996 | INFO | DB Write Operation Successful
+2025-11-17 23:52:25,999 | INFO | DB Write Operation Successful
+2025-11-17 23:52:26,000 | INFO | Created Order: <Order: 1, purchase, Qty: 5>, Type=purchase, Product=P001, Qty=5
+2025-11-17 23:52:26,000 | INFO | Created Order: <Order: 2, sale, Qty: 10>, Type=sale, Product=P002, Qty=10
+2025-11-17 23:52:26,000 | INFO | Created Order: <Order: 3, purchase, Qty: 20>, Type=purchase, Product=P003, Qty=20
+2025-11-17 23:52:26,001 | INFO | Created Order: <Order: 4, purchase, Qty: 30>, Type=purchase, Product=P005, Qty=30
+2025-11-17 23:53:01,566 | INFO | DB Write Operation Successful
+2025-11-17 23:53:01,568 | INFO | DB Write Operation Successful
+2025-11-17 23:53:01,569 | INFO | DB Write Operation Successful
+2025-11-17 23:53:01,571 | INFO | Created Order: <Order: 1, purchase, Qty: 5>, Type=purchase, Product=P001, Qty=5
+2025-11-17 23:53:01,575 | INFO | DB Write Operation Successful
+2025-11-17 23:53:03,388 | INFO | DB Write Operation Successful
+2025-11-17 23:53:03,390 | INFO | DB Write Operation Successful
+2025-11-17 23:53:03,391 | INFO | DB Write Operation Successful
+2025-11-17 23:53:03,392 | INFO | Created Order: <Order: 1, purchase, Qty: 5>, Type=purchase, Product=P001, Qty=5
+2025-11-17 23:53:03,393 | INFO | DB Write Operation Successful
+2025-11-17 23:54:49,894 | INFO | DB Write Operation Successful
+2025-11-17 23:54:49,896 | INFO | DB Write Operation Successful
+2025-11-17 23:54:49,898 | INFO | DB Write Operation Successful
+2025-11-17 23:54:49,899 | INFO | Created Order: <Order: 2, sale, Qty: 10>, Type=sale, Product=P002, Qty=10
+2025-11-17 23:54:49,899 | INFO | Created Order: <Order: 3, purchase, Qty: 20>, Type=purchase, Product=P003, Qty=20
+2025-11-17 23:54:49,899 | INFO | Created Order: <Order: 4, purchase, Qty: 30>, Type=purchase, Product=P005, Qty=30
