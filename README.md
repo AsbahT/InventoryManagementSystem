@@ -51,10 +51,17 @@ project/
 │   │   └── supplier.py
 │   ├── services/
 │   │   ├── inventory_manager.py
-│   ├── routers/
-│   │   ├── orders.py
-│   │   ├── products.py
-│   │   └── suppliers.py
+│   ├── routes/
+│   │   ├── orders_api.py
+│   │   ├── products_api.py
+│   │   └── suppliers_api.py
+|   |__db/
+│   │   ├── orders_db.py
+│   │   ├── products_db.py
+│   │   └── suppliers_db.py
+│   │   ├── database.py
+│   │   ├── setup_db.py
+│   │   └── ims.db
 │   └── main.py
 │
 ├── requirements.txt
